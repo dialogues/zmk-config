@@ -27,23 +27,28 @@
         };
         combo_del {
             timeout-ms = <30>;
-            key-positions = <17 18>;
+            key-positions = <16 17>;
             bindings = <&kp DEL>;
         };
         combo_bksp {
             timeout-ms = <30>;
-            key-positions = <18 19>;
+            key-positions = <17 18>;
             bindings = <&kp BSPC>;
         };
         combo_cbksp {
             timeout-ms = <30>;
-            key-positions = <17 18 19>;
+            key-positions = <16 17 18>;
             bindings = <&kp LC(BSPC)>;
         };
         combo_enter {
             timeout-ms = <30>;
-            key-positions = <19 20>;
+            key-positions = <18 19>;
             bindings = <&kp ENTER>;
+        };
+        combo_bootloader {
+            timeout-ms = <30>;
+            key-positions = <0 10 20>;
+            bindings = <&bootloader>;
         };
     };
 };
@@ -78,7 +83,7 @@
     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
     &kp BSLH  &kp GRAVE  &hm LCTRL EQUAL &hm LSHFT LBKT &kp N1  &kp N1  &hm RSHFT RBKT &hm RCTRL MINUS  &kp SEMI  &kp FSLH
     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-    &bootloader &reset    &trans         &trans        &trans             &trans     &trans    &trans
+    &bootloader &reset  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 

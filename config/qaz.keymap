@@ -74,8 +74,8 @@
 
         nav {
             bindings = <
-    &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp UP  &kp END  &K_VOL_UP
-    &LC(Z)  &LC(X)  &LC(C)  &LC(V)  &LC(F)  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &C_VOL_DN
+    &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp UP  &kp END  &trans
+    &LC(Z)  &LC(X)  &LC(C)  &LC(V)  &LC(F)  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans 
     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;

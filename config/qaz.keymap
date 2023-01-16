@@ -35,7 +35,6 @@
             key-positions = <18 19>;
             bindings = <&kp BSPC>;
         };
-        };
         combo_cbksp {
             timeout-ms = <30>;
             key-positions = <17 18 19>;
